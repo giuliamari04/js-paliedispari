@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Esercizio pari o dispari</title>
 </head>
-<body>
-    
-    <a href="pages/palindroma.html"><button>palindroma</button></a>
-    <a href="pages/pariEdispari.html"><button>pariEdispari</button></a>
 
+<body id="body1">
+    <canvas id="canv" width="32" height="32"></canvas>
+    <div class="wrapper position-absolute d-flex justify-content-center align-items-center align-content-center ">
+        <div class="container my-bg-white w-50 p-3 d-flex flex-column justify-content-center rounded-4 text-center">
+            <h1 class="m-3">A cosa vuoi giocare?</h1>
+            <a href="pages/palindroma.html" class="text-decoration-none"><button class="btn btn-outline-dark my-1">parola palindroma</button></a>
+            <a href="pages/pariEdispari.html" class="text-decoration-none"><button class="btn btn-outline-dark my-1">pari e dispari</button></a>
+        </div>
+    </div>
+
+    <script src="js/decoration.js"></script>
 </body>
+
 </html>

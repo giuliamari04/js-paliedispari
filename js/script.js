@@ -15,7 +15,7 @@ function isPalindroma(parola) {
  * prende dati input 
  * usa funzione isPalindroma per verificare se l'uguaglianza di return è vera o falsa
  */
-const btn = document.querySelector('button');
+const btn = document.querySelector('.button');
 
 btn.addEventListener('click',function() {
     const parolaInput = document.getElementById('Input');

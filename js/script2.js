@@ -28,7 +28,7 @@ function somma(number1,number2){
     return number1+number2;
 }
 
-const btn = document.querySelector('button');
+const btn = document.querySelector('.button');
 
 //funzione di controllo col click
 
@@ -66,9 +66,9 @@ btn.addEventListener('click', function () {
         result.textContent = resultText;
 
         if ((choice === 'pari' && isTotalEven) || (choice === 'dispari' && !isTotalEven)) {
-            result.textContent += ' Hai vinto!';
+            result.innerHTML += '</br> <h3>Hai vinto!</h3>';
         } else {
-            result.textContent += ' Hai perso!';
+            result.innerHTML += '</br> <h3>Hai perso!</h3>';
         }
     }
 });

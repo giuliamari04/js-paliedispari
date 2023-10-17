@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #body1 {
+    width: 100%;
+    height:100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .my-bg-white{
+    background-color: rgba(240, 248, 255, 0.589);
+    border-radius: 20px;
+  }
+
+  .my-bg-white2{
+    background-color: rgba(147, 200, 247, 0.815);
+    border-radius: 20px;
+  }
+
+  .m--10{
+  position: fixed;
+  top: 0;
+  }
+  canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat&family=Oswald:wght@300&display=swap');
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+#body2 {
+  overflow: hidden;
+  background: lightblue;
+  font-family: 'Poppins', sans-serif;
+}
+
+.snow {
+  color: white;
+  font-size: 3em;
+}
+
+@keyframes fall {
+  0% {
+    top: -20%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+
+
+.flake {
+  position: fixed;
+  top: -20%;
+  animation: fall 10s linear infinite;
+}
+
+.flake:nth-last-of-type(0) {
+  left: 0%;
+  animation-delay: 0s;
+}
+
+.flake:nth-last-of-type(1) {
+  left: 0%;
+  animation-delay: 0s;
+}
+
+.flake:nth-last-of-type(2) {
+  left: 10%;
+  animation-delay: 3s;
+}
+
+.flake:nth-last-of-type(3) {
+  left: 20%;
+  animation-delay: 5s;
+}
+
+.flake:nth-last-of-type(4) {
+  left: 30%;
+  animation-delay: 2s;
+}
+
+.flake:nth-last-of-type(5) {
+  left: 40%;
+  animation-delay: 1s;
+}
+
+.flake:nth-last-of-type(6) {
+  left: 50%;
+  animation-delay: 4s;
+}
+
+.flake:nth-last-of-type(7) {
+  left: 60%;
+  animation-delay: 3s;
+}
+
+.flake:nth-last-of-type(8) {
+  left: 70%;
+  animation-delay: 2s;
+}
+
+.flake:nth-last-of-type(9) {
+  left: 80%;
+  animation-delay: 0s;
+}
+
+.flake:nth-last-of-type(10) {
+  left: 90%;
+  animation-delay: 6s;
+}
+  
+ #body3 {
+    background: #287cfa;
+    color:#165dc7;
+    font-family: 'Poppins', sans-serif;
+    height:100vh;
+    overflow: hidden;
+  }
