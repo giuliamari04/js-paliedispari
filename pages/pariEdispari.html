@@ -7,7 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-
+    <h1>Pari o Dispari</h1>
+    <p>Scegli se scommettere su "pari" o "dispari" e inserisci un numero da 1 a 5:</p>
+    <label for="scelta">Scegli pari o dispari:</label>
+    <select id="scelta">
+        <option value="pari">Pari</option>
+        <option value="dispari">Dispari</option>
+    </select>
+    <input type="number" id="numero" min="1" max="5">
+    <button class="button">Gioca</button>
+    <div id="numeroComputer"></div>
+    <div id="result"></div>
 
     <script src="../js/script2.js"></script>
 </body>
